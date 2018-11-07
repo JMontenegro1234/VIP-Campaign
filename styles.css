@@ -1,14 +1,20 @@
 #header{
+      background-image:url("https://upload.wikimedia.org/wikipedia/commons/f/f0/Animated-Flag-Russia_2.gif");
+    background-repeat:no-repeat;
+      background-size: 1600px 120px;
     font-size:25px;
     background-color:red;
     text-align:center;
+    color:black;
+    text-shadow: 2px 2px blue;
 }
 #donation{
-    background-color:blue;
+    background-image:url("https://thumbs.gfycat.com/ThisIndelibleGrebe-size_restricted.gif");
 }
 #donation{
+    text-shadow: 2px 2px yellow;
     font-size:25px;
-    color:red;
+    color:black;
     text-align:center;
 }
 #donation button{
@@ -26,12 +32,16 @@
     justify-content:space-around;
      align-items: center;
      padding: 40px 0;
-    background-color:orange;
+    background-image:url("https://media.tenor.com/images/ae748c996a11a08ac5e7330bb659f180/tenor.gif");
 }
 #pic img{
     width: 20%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
+}
+#pic img:hover{
+    -webkit-transform: rotate(360deg);
+            transform:rotate(360deg);
 }
 #merch{
     width:50%;
@@ -39,20 +49,29 @@
     justify-content:space-around;
      align-items: center;
      padding: 40px 0;
-    background-color:brown;
+    background-image:url("https://media.giphy.com/media/mBGZam2Y0nQ3K/giphy.gif");
+     background-repeat:no-repeat;
+      background-size:700px 600px;
+      color:white;
+      text-shadow:2px 2px red;
 }
 #merch img{
     width: 20%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
+
 #voter{
     width:50%;
     display:flex;
     justify-content:space-around;
-    background-color:purple;
+    background-image:url("http://www.lovethispic.com/uploaded_images/17967-Audience-Clapping-Gif.gif?1");
+     background-repeat:no-repeat;
+      background-size:700px 600px;
     align-items: center;
      padding: 40px 0;
+     color:yellow;
+     text-shadow: 2px 2px red;
 }
 #voter img{
     width: 20%;
@@ -63,12 +82,35 @@
     display:flex;
     justify-content:flex-end;
 }
+#ipic{
+    display:flex;
+    justify-content:space-around;
+     align-items: center;
+    background-image:url("https://vignette.wikia.nocookie.net/glee/images/a/a0/Very-good-gif.gif/revision/latest?cb=20150303150419");
+     background-repeat:no-repeat;
+      background-size:1600px 500px;
+    align-items: center;
+     padding: 40px 0;
+     color:yellow;
+     text-shadow: 2px 2px red;
+}
+#ipic img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
 #egael{
+    background-image:url("https://em.wattpad.com/384db706b74fbf9685e4e166148d2d5acf4c0f1a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f314d5a574b4473452d4c74364e413d3d2d3530313734303930342e313466633062643838313464326238363835373233363033303233362e676966");
+    background-repeat:no-repeat;
+      background-size:1600px 300px;
      display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 40px 0;
+    color:red;
+    text-shadow: 2px 2px white;
 }
 #eagles h2 {text-shadow: 2px 2px white;}
 p {
@@ -76,5 +118,5 @@ p {
 }
 
 html{
-    background-color:red;
+  background-color:red;
 }
